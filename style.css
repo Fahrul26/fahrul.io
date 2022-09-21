@@ -1,3 +1,5 @@
+/* For devices 400px and larger: */
+@media only screen and (min-device-width: 400px){
 * {
     box-sizing: border-box;
 }
@@ -116,8 +118,7 @@ a {
 
 
 
-@media only screen and 
-(max-width:100px) {
+
     .hero{
         display: contents;
     }
@@ -217,3 +218,4 @@ a {
         
     }
 } 
+
